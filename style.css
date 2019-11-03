@@ -1,0 +1,131 @@
+
+
+h1, h2 {
+  font-family: Palatino, serif;
+
+}
+
+h1 {
+  color: #f54291;
+  letter-spacing: 6px
+}
+
+body {
+  background-color: rgb(240,240,240);
+   text-align: center; font-family: Arial, serif
+ }
+
+p{font-size: 20px
+}
+
+a{
+  text-decoration: none;
+  color: 940a37;
+  font-family: courier;
+  transition: 0.4s;
+}
+
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.introduction {
+	width: 600px
+	margin: 40px; 
+	padding: 30px; 
+	border: 1px solid rgba(0,0,0,0.1); 
+	border-radius: 5px; 
+	box-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+	background-color: white 
+}
+#travelling	{
+	margin: 40px; 
+	padding: 30px; 
+	border: 1px solid rgba(0,0,0,0.1); 
+	border-radius: 5px; 
+	box-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+	background-color: white 
+}
+
+#diy {
+	margin: 40px; 
+	padding: 30px; 
+	border: 1px solid rgba(0,0,0,0.1); 
+	border-radius: 5px; 
+	box-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+	background-color: white  
+}
+
+
+#baking {
+	margin: 40px; 
+	padding: 30px; 
+	border: 1px solid rgba(0,0,0,0.1); 
+	border-radius: 5px; 
+	box-shadow: 2px 2px 3px rgba(20,20,20,0.3);
+	background-color: white  
+
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto
+}
+
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.img-circle {
+	border-radius: 50%
+}
+
+.pink-button {
+	background: #f54291;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.pink-button:hover {
+	background-color: black;
+	color: white);
+}
+
+.horizontal-list {
+	list-style: none;
+	padding-left: 0px
+}
+
+.horizontal-list li {
+	display: inline;
+	padding: 10px
+}
+.horizontal-list i{
+	font-size: 45px;
+	color: #f54291
+}
+
+.horizontal-list i:hover {
+	color: black;
+}
+
+h3 {
+	font-family: Palatino, serif; 
+	font-size: 18px;
+}
+
